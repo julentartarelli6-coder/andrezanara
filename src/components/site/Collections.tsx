@@ -12,7 +12,7 @@ const collections = [
   {
     name: "Colares",
     desc: "Pontos de luz que valorizam o colo.",
-    image: img.heart,
+    image: img.colares,
     alt: "Colar delicado com pingente de coração cravejado",
   },
   {

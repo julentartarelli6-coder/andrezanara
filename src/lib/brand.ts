@@ -8,6 +8,7 @@ import goldHeart from "@/assets/gold-heart.jpg.asset.json";
 import bracelets from "@/assets/bracelets.jpg.asset.json";
 import watches from "@/assets/watches.jpg.asset.json";
 import crystal from "@/assets/crystal-set.jpg.asset.json";
+import colares from "@/assets/colares.jpg";
 
 export const img = {
   logo: logo.url,
@@ -16,6 +17,7 @@ export const img = {
   ring: ring.url,
   pearl: pearl.url,
   heart: heart.url,
+  colares,
   goldHeart: goldHeart.url,
   bracelets: bracelets.url,
   watches: watches.url,
