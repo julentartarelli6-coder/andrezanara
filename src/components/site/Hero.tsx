@@ -1,16 +1,20 @@
+import heroDesktop from "@/assets/heroo.jpg";
 import { img, whatsappLink } from "@/lib/brand";
 
 export function Hero() {
   return (
     <section id="inicio" className="relative min-h-[100svh] overflow-hidden">
-      <img
-        src={img.hero}
-        alt="Andreza Nara segurando sacolas de presente da marca de semijoias"
-        className="absolute inset-0 size-full object-cover object-[72%_top]"
-        width={1080}
-        height={1350}
-        fetchPriority="high"
-      />
+      <picture>
+        <source media="(min-width: 1024px)" srcSet={heroDesktop} />
+        <img
+          src={img.hero}
+          alt="Andreza Nara segurando sacolas de presente da marca de semijoias"
+          className="absolute inset-0 size-full object-cover object-[72%_top]"
+          width={1080}
+          height={1350}
+          fetchPriority="high"
+        />
+      </picture>
       <div
         aria-hidden
         className="absolute inset-0 bg-[linear-gradient(100deg,oklch(0.99_0.006_85/0.94)_0%,oklch(0.99_0.006_85/0.8)_34%,oklch(0.98_0.01_85/0.28)_58%,oklch(0.98_0.01_85/0.04)_100%)]"
