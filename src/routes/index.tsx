@@ -1,24 +1,86 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
+import { Navbar } from "@/components/site/Navbar";
+import { Hero } from "@/components/site/Hero";
+import { Benefits } from "@/components/site/Benefits";
+import { Collections } from "@/components/site/Collections";
+import { Highlights } from "@/components/site/Highlights";
+import { WhyUs } from "@/components/site/WhyUs";
+import { InstagramFeed } from "@/components/site/InstagramFeed";
+import { Testimonials } from "@/components/site/Testimonials";
+import { About } from "@/components/site/About";
+import { FinalCta } from "@/components/site/FinalCta";
+import { Footer } from "@/components/site/Footer";
+import { WhatsAppFloat } from "@/components/site/WhatsAppFloat";
+import { img, INSTAGRAM_URL } from "@/lib/brand";
+
+const TITLE = "Andreza Nara Semijoias | Elegância e Brilho Exclusivos";
+const DESCRIPTION =
+  "Semijoias premium selecionadas para mulheres que valorizam sofisticação. Atendimento personalizado no WhatsApp e envio para todo o Brasil.";
+
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [
+      { title: TITLE },
+      { name: "description", content: DESCRIPTION },
+      { property: "og:title", content: TITLE },
+      { property: "og:description", content: DESCRIPTION },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [{ rel: "canonical", href: "/" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          name: "Andreza Nara Semijoias",
+          description: DESCRIPTION,
+          image: img.logo,
+          logo: img.logo,
+          telephone: "+5531968288245",
+          priceRange: "$$",
+          address: {
+            "@type": "PostalAddress",
+            addressRegion: "MG",
+            addressCountry: "BR",
+          },
+          areaServed: "Brasil",
+          sameAs: [INSTAGRAM_URL],
+          openingHoursSpecification: [
+            {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+              opens: "09:00",
+              closes: "19:00",
+            },
+          ],
+        }),
+      },
+    ],
+  }),
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <main>
+        <Hero />
+        <Benefits />
+        <Collections />
+        <Highlights />
+        <WhyUs />
+        <InstagramFeed />
+        <Testimonials />
+        <About />
+        <FinalCta />
+      </main>
+      <Footer />
+      <WhatsAppFloat />
     </div>
   );
 }
