@@ -81,12 +81,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Semijoias premium com elegância, brilho e atendimento personalizado.",
+          "Semijoias sofisticadas e de alta qualidade para todos os estilos. Elegância, brilho e durabilidade em cada detalhe.",
       },
       { name: "author", content: "Andreza Nara Semijoias" },
       { property: "og:site_name", content: "Andreza Nara Semijoias" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Andreza Nara Semijoias" },
+      { name: "twitter:title", content: "Andreza Nara Semijoias" },
+      { property: "og:description", content: "Semijoias sofisticadas e de alta qualidade para todos os estilos. Elegância, brilho e durabilidade em cada detalhe." },
+      { name: "twitter:description", content: "Semijoias sofisticadas e de alta qualidade para todos os estilos. Elegância, brilho e durabilidade em cada detalhe." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/e47bb628-269f-4275-b66e-ee7b60a5a9c5" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/e47bb628-269f-4275-b66e-ee7b60a5a9c5" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
