@@ -13,7 +13,7 @@ export function Hero() {
       />
       <div
         aria-hidden
-        className="absolute inset-0 bg-[linear-gradient(100deg,oklch(0.99_0.006_85/0.96)_0%,oklch(0.99_0.006_85/0.86)_38%,oklch(0.98_0.01_85/0.42)_62%,oklch(0.98_0.01_85/0.12)_100%)]"
+        className="absolute inset-0 bg-[linear-gradient(100deg,oklch(0.99_0.006_85/0.94)_0%,oklch(0.99_0.006_85/0.8)_34%,oklch(0.98_0.01_85/0.28)_58%,oklch(0.98_0.01_85/0.04)_100%)]"
       />
       <div
         aria-hidden
