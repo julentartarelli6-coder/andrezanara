@@ -6,7 +6,7 @@ export function Hero() {
       <img
         src={img.hero}
         alt="Andreza Nara segurando sacolas de presente da marca de semijoias"
-        className="absolute inset-0 size-full object-cover object-[72%_center]"
+        className="absolute inset-0 size-full object-cover object-[72%_top]"
         width={1080}
         height={1350}
         fetchPriority="high"

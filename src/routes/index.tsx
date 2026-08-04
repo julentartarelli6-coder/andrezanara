@@ -4,9 +4,7 @@ import { Navbar } from "@/components/site/Navbar";
 import { Hero } from "@/components/site/Hero";
 import { Benefits } from "@/components/site/Benefits";
 import { Collections } from "@/components/site/Collections";
-import { Highlights } from "@/components/site/Highlights";
 import { WhyUs } from "@/components/site/WhyUs";
-import { InstagramFeed } from "@/components/site/InstagramFeed";
 import { Testimonials } from "@/components/site/Testimonials";
 import { About } from "@/components/site/About";
 import { FinalCta } from "@/components/site/FinalCta";
@@ -72,9 +70,7 @@ function Index() {
         <Hero />
         <Benefits />
         <Collections />
-        <Highlights />
         <WhyUs />
-        <InstagramFeed />
         <Testimonials />
         <About />
         <FinalCta />
