@@ -37,14 +37,25 @@ export function Reveal({
     return () => io.disconnect();
   }, []);
 
-  const dirClass =
-    direction === "left" ? "reveal-left" : direction === "right" ? "reveal-right" : "reveal-up";
+  const hidden =
+    direction === "left"
+      ? "translateX(-32px)"
+      : direction === "right"
+        ? "translateX(32px)"
+        : "translateY(28px)";
 
   return (
     <Tag
       ref={ref as never}
-      style={{ transitionDelay: `${delay}ms` }}
-      className={cn("reveal", dirClass, visible && "is-visible", className)}
+      style={{
+        transitionDelay: `${delay}ms`,
+        opacity: visible ? 1 : 0,
+        transform: visible ? "none" : hidden,
+      }}
+      className={cn(
+        "transition-[opacity,transform] duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)]",
+        className,
+      )}
     >
       {children}
     </Tag>
