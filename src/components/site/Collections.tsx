@@ -39,6 +39,78 @@ const collections = [
     image: img.watches,
     alt: "Três relógios femininos cravejados de zircônias",
   },
+  {
+    name: "Produto extra 01",
+    desc: "Mais uma peça para completar a coleção com brilho e sofisticação.",
+    image: img.extra01,
+    alt: "Peça extra da coleção em semijoia com acabamento refinado",
+  },
+  {
+    name: "Produto extra 02",
+    desc: "Mais uma peça para completar a coleção com brilho e sofisticação.",
+    image: img.extra02,
+    alt: "Peça extra da coleção em semijoia com acabamento refinado",
+  },
+  {
+    name: "Produto extra 03",
+    desc: "Mais uma peça para completar a coleção com brilho e sofisticação.",
+    image: img.extra03,
+    alt: "Peça extra da coleção em semijoia com acabamento refinado",
+  },
+  {
+    name: "Produto extra 04",
+    desc: "Mais uma peça para completar a coleção com brilho e sofisticação.",
+    image: img.extra04,
+    alt: "Peça extra da coleção em semijoia com acabamento refinado",
+  },
+  {
+    name: "Produto extra 05",
+    desc: "Mais uma peça para completar a coleção com brilho e sofisticação.",
+    image: img.extra05,
+    alt: "Peça extra da coleção em semijoia com acabamento refinado",
+  },
+  {
+    name: "Produto extra 06",
+    desc: "Mais uma peça para completar a coleção com brilho e sofisticação.",
+    image: img.extra06,
+    alt: "Peça extra da coleção em semijoia com acabamento refinado",
+  },
+  {
+    name: "Produto extra 07",
+    desc: "Mais uma peça para completar a coleção com brilho e sofisticação.",
+    image: img.extra07,
+    alt: "Peça extra da coleção em semijoia com acabamento refinado",
+  },
+  {
+    name: "Produto extra 08",
+    desc: "Mais uma peça para completar a coleção com brilho e sofisticação.",
+    image: img.extra08,
+    alt: "Peça extra da coleção em semijoia com acabamento refinado",
+  },
+  {
+    name: "Produto extra 09",
+    desc: "Mais uma peça para completar a coleção com brilho e sofisticação.",
+    image: img.extra09,
+    alt: "Peça extra da coleção em semijoia com acabamento refinado",
+  },
+  {
+    name: "Produto extra 10",
+    desc: "Mais uma peça para completar a coleção com brilho e sofisticação.",
+    image: img.extra10,
+    alt: "Peça extra da coleção em semijoia com acabamento refinado",
+  },
+  {
+    name: "Produto extra 11",
+    desc: "Mais uma peça para completar a coleção com brilho e sofisticação.",
+    image: img.extra11,
+    alt: "Peça extra da coleção em semijoia com acabamento refinado",
+  },
+  {
+    name: "Produto extra 12",
+    desc: "Mais uma peça para completar a coleção com brilho e sofisticação.",
+    image: img.extra12,
+    alt: "Peça extra da coleção em semijoia com acabamento refinado",
+  },
 ];
 
 export function Collections() {
