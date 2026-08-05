@@ -13,6 +13,5 @@ export default defineConfig(({ mode }) => ({
     },
     base: "/",
 
-  tanstackStart: {
-  },
-});
+  tanstackStart: {},
+}));
