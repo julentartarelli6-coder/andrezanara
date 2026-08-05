@@ -9,13 +9,6 @@ const tiles = [
   { src: img.insta03, alt: "Conjunto de colar e brincos com pedras esmeralda" },
   { src: img.insta04, alt: "Pulseira de corrente com pingente dourado" },
   { src: img.insta05, alt: "Conjunto de colar e brincos com pedras em tons verdes" },
-  { src: img.extra01, alt: "Conjunto de colar e brincos com pedra esmeralda" },
-  { src: img.extra02, alt: "Conjunto de colar e brincos cristal luxe" },
-  { src: img.extra03, alt: "Conjunto de anel e brincos com pedra ametista" },
-  { src: img.extra04, alt: "Conjunto floral vermelho com anel" },
-  { src: img.extra05, alt: "Conjunto de brincos e anel multicolorido" },
-  { src: img.extra06, alt: "Rosário dourado com crucifixo cravejado" },
-  { src: img.extra07, alt: "Conjunto de brinco e anel com pedras verdes" },
 ];
 
 export function InstagramFeed() {
