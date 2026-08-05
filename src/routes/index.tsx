@@ -7,6 +7,7 @@ import { Collections } from "@/components/site/Collections";
 import { WhyUs } from "@/components/site/WhyUs";
 import { Testimonials } from "@/components/site/Testimonials";
 import { About } from "@/components/site/About";
+import { InstagramFeed } from "@/components/site/InstagramFeed";
 import { FinalCta } from "@/components/site/FinalCta";
 import { Footer } from "@/components/site/Footer";
 import { WhatsAppFloat } from "@/components/site/WhatsAppFloat";
@@ -70,6 +71,7 @@ function Index() {
         <Hero />
         <Benefits />
         <Collections />
+        <InstagramFeed />
         <WhyUs />
         <Testimonials />
         <About />

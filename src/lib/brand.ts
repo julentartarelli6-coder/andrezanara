@@ -21,6 +21,11 @@ import extra09 from "@/assets/WhatsApp-Image-2026-08-05-at-09.01.55.jpg";
 import extra10 from "@/assets/instagram_DWBpUoIDoi4_1785952352588.jpg";
 import extra11 from "@/assets/instagram_DWPcOfajnN2_1785952280096.jpg";
 import extra12 from "@/assets/instagram_DWTqIMHDmPc_1785952306346.jpg";
+import insta01 from "@/assets/DUg9JyQDp3k.jpg";
+import insta02 from "@/assets/DUVWIr7Duy6.jpg";
+import insta03 from "@/assets/instagram_DReyUjmjqOa_1785954389744.jpg";
+import insta04 from "@/assets/instagram_DUB1dnXjuj8_1785954625752.jpg";
+import insta05 from "@/assets/instagram_DUB1dnXjuj8_1785954628960.jpg";
 
 export const img = {
   logo: logo.url,
@@ -46,6 +51,11 @@ export const img = {
   extra10,
   extra11,
   extra12,
+  insta01,
+  insta02,
+  insta03,
+  insta04,
+  insta05,
 };
 
 export const WHATSAPP_NUMBER = "553196828245";
