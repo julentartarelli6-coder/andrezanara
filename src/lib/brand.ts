@@ -2,6 +2,7 @@ import logo from "@/assets/logo.png.asset.json";
 import hero from "@/assets/hero.jpg.asset.json";
 import owner from "@/assets/owner.jpg.asset.json";
 import ring from "@/assets/ring-solitaire.jpg.asset.json";
+import solitarias from "@/assets/solitarias.jpg";
 import pearl from "@/assets/pearl-set.jpg.asset.json";
 import heart from "@/assets/heart-necklace.jpg.asset.json";
 import goldHeart from "@/assets/gold-heart.jpg.asset.json";
@@ -21,6 +22,10 @@ import extra09 from "@/assets/WhatsApp-Image-2026-08-05-at-09.01.55.jpg";
 import extra10 from "@/assets/instagram_DWBpUoIDoi4_1785952352588.jpg";
 import extra11 from "@/assets/instagram_DWPcOfajnN2_1785952280096.jpg";
 import extra12 from "@/assets/instagram_DWTqIMHDmPc_1785952306346.jpg";
+import collection01 from "@/assets/WhatsApp Image 2026-08-05 at 17.35.21.jpg";
+import collection02 from "@/assets/WhatsApp Image 2026-08-05 at 17.38.21.jpg";
+import collection03 from "@/assets/instagram_DaJOHMzOOBE_1785962515778.jpg";
+import collection04 from "@/assets/instagram_DQ89jIfjq5__1785962524232.jpg";
 import insta01 from "@/assets/DUg9JyQDp3k.jpg";
 import insta02 from "@/assets/DUVWIr7Duy6.jpg";
 import insta03 from "@/assets/instagram_DReyUjmjqOa_1785954389744.jpg";
@@ -32,6 +37,7 @@ export const img = {
   hero: hero.url,
   owner: owner.url,
   ring: ring.url,
+  solitarias,
   pearl: pearl.url,
   heart: heart.url,
   colares,
@@ -51,6 +57,10 @@ export const img = {
   extra10,
   extra11,
   extra12,
+  collection01,
+  collection02,
+  collection03,
+  collection04,
   insta01,
   insta02,
   insta03,

@@ -10,7 +10,7 @@ const collections = [
     alt: "Brincos dourados com pérolas e cristal central",
   },
   {
-    name: "Conjunto pulseira e colar.",
+    name: "Conjunto pulseira e colar",
     desc: "o clássico das pérolas com correntes de elos metálicos robustos..",
     image: img.colares,
     alt: "pulseira com pérolas e coração com corrente em T dourada.",
@@ -23,9 +23,9 @@ const collections = [
   },
   {
     name: "Anéis solitários",
-    desc: "Solitários e aparadores de acabamento nobre.",
-    image: img.ring,
-    alt: "Anel solitário em prata ",
+    desc: "Solitários com brilho intenso em uma composição elegante e sofisticada.",
+    image: img.solitarias,
+    alt: "Anéis solitários com pedras",
   },
   {
     name: "Conjuntos em zircônias transparentes",
@@ -110,6 +110,30 @@ const collections = [
     desc: "pulseira dourada com o pingente da Árvore da Vida.",
     image: img.extra09,
     alt: "Pulseira da Árvore da Vida com acabamento sofisticado",
+  },
+  {
+    name: "Colar de cristais moissanite",
+    desc: "Colar com fileira de zircônias em dourado, com efeito glamouroso e sofisticado.",
+    image: img.collection01,
+    alt: "Colar de zircônias em dourado com brilho intenso e acabamento luxuoso",
+  },
+  {
+    name: "conjunto floral ",
+    desc: "anel , brinco e pulseira floral com desenho delicado para um visual elegante e marcante.",
+    image: img.collection02,
+    alt: "conjunto floral com pedra vermelha e pulseira dourada com V centralizado",
+  },
+  {
+    name: "Colar floral",
+    desc: "Peça com acabamento em ouro e detalhes em pedras coloridas, inspirada na devoção da Nazaré.",
+    image: img.collection03,
+    alt: "Colar dourado com pingente floral.",
+  },
+  {
+    name: "Colar de Nossa Senhora de Nazaré",
+    desc: "Composição dourada com brilho e detalhes delicados, ideal para uma peça de presença marcante.",
+    image: img.collection04,
+    alt: "Colar com pingente de Nossa Senhora de Nazaré em acabamento premium",
   },
 ];
 

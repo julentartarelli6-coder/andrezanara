@@ -62,7 +62,6 @@ export function Footer() {
             {[
               ["Início", "#inicio"],
               ["Coleções", "#colecoes"],
-              ["Destaques", "#destaques"],
               ["Depoimentos", "#depoimentos"],
               ["Sobre", "#sobre"],
             ].map(([label, href]) => (
