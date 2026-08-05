@@ -112,28 +112,28 @@ const collections = [
     alt: "Pulseira da Árvore da Vida com acabamento sofisticado",
   },
   {
+    name: "Colar de Nossa Senhora de Nazaré",
+    desc: "Composição dourada com brilho e detalhes delicados, ideal para uma peça de presença marcante.",
+    image: img.collection02,
+    alt: "Colar com pingente de Nossa Senhora de Nazaré em acabamento premium",
+  },
+  {
+    name: "Colar floral",
+    desc: "Peça com acabamento em ouro e detalhes em pedras coloridas, inspirada na devoção da Nazaré.",
+    image: img.collection01,
+    alt: "Colar dourado com pingente floral.",
+  },
+  {
     name: "Colar de cristais moissanite",
     desc: "Colar com fileira de zircônias em dourado, com efeito glamouroso e sofisticado.",
-    image: img.collection01,
+    image: img.collection04,
     alt: "Colar de zircônias em dourado com brilho intenso e acabamento luxuoso",
   },
   {
     name: "conjunto floral ",
     desc: "anel , brinco e pulseira floral com desenho delicado para um visual elegante e marcante.",
-    image: img.collection02,
-    alt: "conjunto floral com pedra vermelha e pulseira dourada com V centralizado",
-  },
-  {
-    name: "Colar floral",
-    desc: "Peça com acabamento em ouro e detalhes em pedras coloridas, inspirada na devoção da Nazaré.",
     image: img.collection03,
-    alt: "Colar dourado com pingente floral.",
-  },
-  {
-    name: "Colar de Nossa Senhora de Nazaré",
-    desc: "Composição dourada com brilho e detalhes delicados, ideal para uma peça de presença marcante.",
-    image: img.collection04,
-    alt: "Colar com pingente de Nossa Senhora de Nazaré em acabamento premium",
+    alt: "conjunto floral com pedra vermelha e pulseira dourada com V centralizado",
   },
 ];
 
