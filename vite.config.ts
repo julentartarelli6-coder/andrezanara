@@ -7,11 +7,13 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig(({ mode }) => ({
-    server: { 
+    server: {
       host: "::",
       port: 8080,
     },
     base: "/",
-
-  tanstackStart: {},
+    resolve: {
+      tsconfigPaths: true,
+    },
+    tanstackStart: {},
 }));
