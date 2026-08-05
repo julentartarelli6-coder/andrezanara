@@ -6,7 +6,6 @@ import { img, whatsappLink } from "@/lib/brand";
 const links = [
   { label: "Início", href: "#inicio" },
   { label: "Coleções", href: "#colecoes" },
-  { label: "Destaques", href: "#destaques" },
   { label: "Depoimentos", href: "#depoimentos" },
   { label: "Sobre", href: "#sobre" },
   { label: "Contato", href: "#contato" },
