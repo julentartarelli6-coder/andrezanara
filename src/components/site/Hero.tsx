@@ -1,13 +1,15 @@
 import heroDesktop from "@/assets/heroo.jpg";
-import { img, whatsappLink } from "@/lib/brand";
+import heroMobile from "@/assets/heroMobile.jpg";
+import { whatsappLink } from "@/lib/brand";
 
 export function Hero() {
   return (
     <section id="inicio" className="relative min-h-[100svh] overflow-hidden">
       <picture>
+        <source media="(max-width: 1023px)" srcSet={heroMobile} />
         <source media="(min-width: 1024px)" srcSet={heroDesktop} />
         <img
-          src={img.hero}
+          src={heroDesktop}
           alt="Andreza Nara segurando sacolas de presente da marca de semijoias"
           className="absolute inset-0 size-full object-cover object-[72%_top]"
           width={1080}

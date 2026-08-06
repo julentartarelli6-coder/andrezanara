@@ -1,5 +1,6 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import heroImage from "@/assets/heroo.jpg";
+import favicon from "@/assets/logo.jpg";
 import {
   Outlet,
   Link,
@@ -110,7 +111,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
+      { rel: "icon", href: favicon, type: "image/jpeg" },
     ],
   }),
   shellComponent: RootShell,
