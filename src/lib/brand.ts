@@ -41,7 +41,7 @@ import heromobile from "@/assets/heromobile.jpg";
 
 
 export const img = {
-  logo: logo.url,
+  logo,
   hero: hero.url,
   owner: owner.url,
   ring: ring.url,

@@ -13,7 +13,7 @@ import { Footer } from "@/components/site/Footer";
 import { WhatsAppFloat } from "@/components/site/WhatsAppFloat";
 import { img, INSTAGRAM_URL } from "@/lib/brand";
 
-const TITLE = "Andreza Nara Semijoias | Elegância e Brilho Exclusivos";
+const TITLE = "Andreza Nara Semijoias";
 const DESCRIPTION =
   "Semijoias premium selecionadas para mulheres que valorizam sofisticação. Atendimento personalizado no WhatsApp e envio para todo o Brasil.";
 
