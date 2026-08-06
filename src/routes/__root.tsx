@@ -1,4 +1,5 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import heroImage from "@/assets/heroo.jpg";
 import {
   Outlet,
   Link,
@@ -95,8 +96,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:title", content: "Andreza Nara Semijoias" },
       { property: "og:description", content: "Semijoias sofisticadas e de alta qualidade para todos os estilos. Elegância, brilho e durabilidade em cada detalhe." },
       { name: "twitter:description", content: "Semijoias sofisticadas e de alta qualidade para todos os estilos. Elegância, brilho e durabilidade em cada detalhe." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/e47bb628-269f-4275-b66e-ee7b60a5a9c5" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/e47bb628-269f-4275-b66e-ee7b60a5a9c5" },
+      { property: "og:image", content: heroImage },
+      { name: "twitter:image", content: heroImage },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -109,7 +110,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/favicon.png", type: "image/png" },
+      { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
     ],
   }),
   shellComponent: RootShell,
