@@ -84,6 +84,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Semijoias sofisticadas e de alta qualidade para todos os estilos. Elegância, brilho e durabilidade em cada detalhe.",
       },
       { name: "author", content: "Andreza Nara Semijoias" },
+      {
+        name: "google-site-verification",
+        content: "nu5ozZxtU7qnoruckLCZTZfNGX_-oIKiMZVziAancSQ",
+      },
       { property: "og:site_name", content: "Andreza Nara Semijoias" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
