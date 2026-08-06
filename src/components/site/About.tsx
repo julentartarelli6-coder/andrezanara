@@ -30,7 +30,7 @@ export function About() {
             </p>
           </div>
           <a
-            href={whatsappLink("Olá, Andreza! Gostaria de um atendimento personalizado.")}
+            href={whatsappLink("Olá, Andreza! Gostaria de ter mais informações.")}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-shine mt-10 inline-flex rounded-full bg-gold-gradient px-9 py-4 text-[0.72rem] font-medium tracking-[0.2em] text-gold-foreground uppercase shadow-soft transition-transform duration-300 hover:-translate-y-0.5"
@@ -46,7 +46,7 @@ export function About() {
               className="absolute -inset-3 rounded-[2.2rem] bg-gold-gradient opacity-25 blur-xl"
             />
             <img
-              src={img.owner}
+              src={img.cv}
               alt="Andreza Nara usando colares, pulseiras e anéis da própria marca"
               loading="lazy"
               className="relative aspect-4/5 w-full rounded-[2rem] object-cover shadow-luxe"

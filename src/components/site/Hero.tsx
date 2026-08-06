@@ -7,7 +7,7 @@ export function Hero() {
       <picture>
         <source media="(min-width: 1024px)" srcSet={heroDesktop} />
         <img
-          src={img.hero}
+          src={img.heromobile}
           alt="Andreza Nara segurando sacolas de presente da marca de semijoias"
           className="absolute inset-0 size-full object-cover object-[72%_top]"
           width={1080}

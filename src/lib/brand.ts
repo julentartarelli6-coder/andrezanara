@@ -31,6 +31,14 @@ import insta02 from "@/assets/DUVWIr7Duy6.jpg";
 import insta03 from "@/assets/instagram_DReyUjmjqOa_1785954389744.jpg";
 import insta04 from "@/assets/instagram_DUB1dnXjuj8_1785954625752.jpg";
 import insta05 from "@/assets/instagram_DUB1dnXjuj8_1785954628960.jpg";
+import perola from "@/assets/perola.jpg";
+import pandora from "@/assets/pandora.jpg";
+import conjunto from "@/assets/conjunto.jpg";
+import cravejado from "@/assets/cravejado.jpg";
+import nazare from "@/assets/nazare.jpg";
+import cv from "@/assets/cv.jpg";
+import heromobile from "@/assets/heromobile.jpg";
+
 
 export const img = {
   logo: logo.url,
@@ -66,6 +74,13 @@ export const img = {
   insta03,
   insta04,
   insta05,
+  perola,
+  pandora,
+  conjunto,
+  cravejado,
+  nazare,
+  cv,
+  heromobile,
 };
 
 export const WHATSAPP_NUMBER = "553196828245";

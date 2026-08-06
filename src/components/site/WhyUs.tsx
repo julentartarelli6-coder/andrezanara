@@ -19,7 +19,7 @@ export function WhyUs() {
         <Reveal direction="left">
           <div className="overflow-hidden rounded-[2rem] shadow-luxe">
             <img
-              src={img.goldHeart}
+              src={img.nazare}
               alt="Colar dourado com pérolas e pingente de coração usado por cliente"
               loading="lazy"
               className="aspect-4/5 w-full object-cover"
