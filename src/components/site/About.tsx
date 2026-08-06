@@ -46,7 +46,7 @@ export function About() {
               className="absolute -inset-3 rounded-[2.2rem] bg-gold-gradient opacity-25 blur-xl"
             />
             <img
-              src={img.cv}
+              src={img.owner}
               alt="Andreza Nara usando colares, pulseiras e anéis da própria marca"
               loading="lazy"
               className="relative aspect-4/5 w-full rounded-[2rem] object-cover shadow-luxe"

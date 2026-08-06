@@ -1,17 +1,14 @@
-import logo from "@/assets/logo.jpg";
-import hero from "@/assets/hero.jpg";
-import owner from "@/assets/owner.jpg";
-import ring from "@/assets/ring-solitaire.jpg";
-import brinco from "@/assets/brinco.jpg";
-import pearl from "@/assets/pearl-set.jpg";
-import pandora from "@/assets/pandora.jpg";
-import zirconias from "@/assets/zirconias.jpg";
-import cravejado from "@/assets/cravejado.jpg";
-import heart from "@/assets/gold-heart.jpg";
-import goldHeart from "@/assets/gold-heart.jpg";
-import bracelets from "@/assets/bracelets.jpg";
-import watches from "@/assets/watches.jpg";
-import crystal from "@/assets/crystal-set.jpg";
+import logo from "@/assets/logo.png.asset.json";
+import hero from "@/assets/hero.jpg.asset.json";
+import owner from "@/assets/owner.jpg.asset.json";
+import ring from "@/assets/ring-solitaire.jpg.asset.json";
+import solitarias from "@/assets/solitarias.jpg";
+import pearl from "@/assets/pearl-set.jpg.asset.json";
+import heart from "@/assets/heart-necklace.jpg.asset.json";
+import goldHeart from "@/assets/gold-heart.jpg.asset.json";
+import bracelets from "@/assets/bracelets.jpg.asset.json";
+import watches from "@/assets/watches.jpg.asset.json";
+import crystal from "@/assets/crystal-set.jpg.asset.json";
 import colares from "@/assets/colares.jpg";
 import extra01 from "@/assets/WhatsApp-Image-2026-08-04-at-18.00.06.jpg";
 import extra02 from "@/assets/WhatsApp-Image-2026-08-04-at-18.00.06-_1_.jpg";
@@ -34,26 +31,20 @@ import insta02 from "@/assets/DUVWIr7Duy6.jpg";
 import insta03 from "@/assets/instagram_DReyUjmjqOa_1785954389744.jpg";
 import insta04 from "@/assets/instagram_DUB1dnXjuj8_1785954625752.jpg";
 import insta05 from "@/assets/instagram_DUB1dnXjuj8_1785954628960.jpg";
-import peito from "@/assets/peito.jpg";
-import cv from "@/assets/cv.jpg";
 
 export const img = {
-  logo,
-  hero,
-  owner,
-  ring,
+  logo: logo.url,
+  hero: hero.url,
+  owner: owner.url,
+  ring: ring.url,
   solitarias,
-  brinco,
-  pearl,
-  pandora,
-  zirconias,
-  cravejado,
-  heart,
+  pearl: pearl.url,
+  heart: heart.url,
   colares,
-  goldHeart,
-  bracelets,
-  watches,
-  crystal,
+  goldHeart: goldHeart.url,
+  bracelets: bracelets.url,
+  watches: watches.url,
+  crystal: crystal.url,
   extra01,
   extra02,
   extra03,
@@ -75,8 +66,6 @@ export const img = {
   insta03,
   insta04,
   insta05,
-  peito,
-  cv,
 };
 
 export const WHATSAPP_NUMBER = "553196828245";

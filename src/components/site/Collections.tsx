@@ -6,7 +6,7 @@ const collections = [
   {
     name: "Brincos com Pérolas",
     desc: "Do discreto ao statement, com brilho impecável.",
-    image: img.brinco,
+    image: img.pearl,
     alt: "Brincos dourados com pérolas e cristal central",
   },
   {
@@ -30,13 +30,13 @@ const collections = [
   {
     name: "Conjuntos em zircônias transparentes",
     desc: "Harmonia perfeita entre brinco, colar e anel.",
-    image: img.zirconias,
+    image: img.crystal,
     alt: "Conjunto dourado com cristais em formato triangular",
   },
   {
     name: "Relógios Cravejados",
     desc: "Luxo cravejado para momentos especiais.",
-    image: img.cravejado,
+    image: img.watches,
     alt: "relógios femininos cravejados de zircônias",
   },
   {
