@@ -2,8 +2,11 @@ import logo from "@/assets/logo.jpg";
 import hero from "@/assets/hero.jpg";
 import owner from "@/assets/owner.jpg";
 import ring from "@/assets/ring-solitaire.jpg";
-import solitarias from "@/assets/solitarias.jpg";
+import brinco from "@/assets/brinco.jpg";
 import pearl from "@/assets/pearl-set.jpg";
+import pandora from "@/assets/pandora.jpg";
+import zirconias from "@/assets/zirconias.jpg";
+import cravejado from "@/assets/cravejado.jpg";
 import heart from "@/assets/gold-heart.jpg";
 import goldHeart from "@/assets/gold-heart.jpg";
 import bracelets from "@/assets/bracelets.jpg";
@@ -31,6 +34,8 @@ import insta02 from "@/assets/DUVWIr7Duy6.jpg";
 import insta03 from "@/assets/instagram_DReyUjmjqOa_1785954389744.jpg";
 import insta04 from "@/assets/instagram_DUB1dnXjuj8_1785954625752.jpg";
 import insta05 from "@/assets/instagram_DUB1dnXjuj8_1785954628960.jpg";
+import peito from "@/assets/peito.jpg";
+import cv from "@/assets/cv.jpg";
 
 export const img = {
   logo,
@@ -38,7 +43,11 @@ export const img = {
   owner,
   ring,
   solitarias,
+  brinco,
   pearl,
+  pandora,
+  zirconias,
+  cravejado,
   heart,
   colares,
   goldHeart,
@@ -66,6 +75,8 @@ export const img = {
   insta03,
   insta04,
   insta05,
+  peito,
+  cv,
 };
 
 export const WHATSAPP_NUMBER = "553196828245";
