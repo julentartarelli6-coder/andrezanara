@@ -38,6 +38,10 @@ import cravejado from "@/assets/cravejado.jpg";
 import nazare from "@/assets/nazare.jpg";
 import cv from "@/assets/cv.jpg";
 import heromobile from "@/assets/heromobile.jpg";
+import prata from "@/assets/prata.jpg";
+import cristal from "@/assets/cristal.jpg";
+import multicolorido from "@/assets/multicolorido.jpg";
+import esmeralda from "@/assets/esmeralda.jpg";
 
 
 export const img = {
@@ -81,6 +85,10 @@ export const img = {
   nazare,
   cv,
   heromobile,
+  prata,
+  cristal,
+  multicolorido,
+  esmeralda,
 };
 
 export const WHATSAPP_NUMBER = "553196828245";

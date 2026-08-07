@@ -135,6 +135,30 @@ const collections = [
     image: img.collection03,
     alt: "conjunto floral com pedra vermelha e pulseira dourada com V centralizado",
   },
+  {
+    name: "Brincos Moissanite",
+    desc: "Joias em prata com Moissanite.",
+    image: img.prata,
+    alt: "brinco em prata com Moissanite",
+  },
+  {
+    name: "Brincos Cristal Pink e Esmeralda",
+    desc: "brincos para marca presença por onde passa.",
+    image: img.cristal,
+    alt: "brincos Cristal Pink e Esmeralda",
+  },
+  {
+    name: "Brincos Multicolorido",
+    desc: "brincos com pedras cristal multicolorido Com micro zircônios.",
+    image: img.multicolorido,
+    alt: "brincos Cristal Pink e Esmeralda",
+  },
+  {
+    name: "conjunto esmeralda",
+    desc: "brincos e anel elegantes com pedras esmeralda.",
+    image: img.esmeralda,
+    alt: "conjunto de brincos e anel com pedras esmeralda e acabamento em dourado.",
+  },
 ];
 
 export function Collections() {
