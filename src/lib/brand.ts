@@ -42,6 +42,9 @@ import prata from "@/assets/prata.jpg";
 import cristal from "@/assets/cristal.jpg";
 import multicolorido from "@/assets/multicolorido.jpg";
 import esmeralda from "@/assets/esmeralda.jpg";
+import abelha from "@/assets/abelha.jpg";
+import ciano from "@/assets/ciano.jpg";
+import garganta from "@/assets/garganta.jpg";
 
 
 export const img = {
@@ -89,6 +92,9 @@ export const img = {
   cristal,
   multicolorido,
   esmeralda,
+  abelha,
+  ciano,
+  garganta,
 };
 
 export const WHATSAPP_NUMBER = "553196828245";

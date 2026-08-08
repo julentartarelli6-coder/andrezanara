@@ -137,27 +137,45 @@ const collections = [
   },
   {
     name: "Brincos Moissanite",
-    desc: "Joias em prata com Moissanite.",
+    desc: "Brincos em prata com Moissanite.",
     image: img.prata,
     alt: "brinco em prata com Moissanite",
   },
   {
     name: "Brincos Cristal Pink e Esmeralda",
-    desc: "brincos para marca presença por onde passa.",
+    desc: "brincos para marcar a presença por onde passa.",
     image: img.cristal,
     alt: "brincos Cristal Pink e Esmeralda",
   },
   {
     name: "Brincos Multicolorido",
-    desc: "brincos com pedras cristal multicolorido Com micro zircônios.",
+    desc: "brincos com pedras de cristal multicolorido Com micro zircônios.",
     image: img.multicolorido,
     alt: "brincos Cristal Pink e Esmeralda",
   },
   {
     name: "conjunto esmeralda",
-    desc: "brincos e anel elegantes com pedras esmeralda.",
+    desc: "Anel e Brincos elegantes com pedras esmeralda.",
     image: img.esmeralda,
     alt: "conjunto de brincos e anel com pedras esmeralda e acabamento em dourado.",
+  },
+  {
+    name: "conjunto abelhas cravejadas",
+    desc: " conjunto de abelhas cravejadas com delicadeza e o brilho luxuoso do nosso banho em ouro.",
+    image: img.abelha,
+    alt: "conjunto de abelhas cravejadas.",
+  },
+  {
+    name: "Conjunto Cruzeiro",
+    desc: " conjunto composto por pedras maravilhosas.",
+    image: img.ciano,
+    alt: "conjunto cruzeiro esmeralda.",
+  },
+  {
+    name: "Colares circular e cravejado",
+    desc: "Mix de colares com a textura dos elos circulares e o brilho incomparável da cravação premium.",
+    image: img.garganta,
+    alt: "Colar circular e colar cravejado.",
   },
 ];
 
