@@ -16,6 +16,9 @@ import { img, INSTAGRAM_URL } from "@/lib/brand";
 const TITLE = "Andreza Nara Semijoias";
 const DESCRIPTION =
   "Semijoias premium selecionadas para mulheres que valorizam sofisticação. Atendimento personalizado no WhatsApp e envio para todo o Brasil.";
+const SITE_URL = "https://www.andrezanarasemijoias.com.br/";
+const LOGO_URL =
+  "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/e47bb628-269f-4275-b66e-ee7b60a5a9c5";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -26,11 +29,43 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESCRIPTION },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/" },
+      { property: "og:url", content: SITE_URL },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: SITE_URL }],
     scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "Andreza Nara Semijoias",
+          alternateName: "Andreza Nara",
+          url: SITE_URL,
+        }),
+      },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "JewelryStore",
+          name: "Andreza Nara Semijoias",
+          alternateName: "Andreza Nara",
+          url: SITE_URL,
+          logo: LOGO_URL,
+          image: LOGO_URL,
+          description: DESCRIPTION,
+          telephone: "+5531968288245",
+          priceRange: "$$",
+          address: {
+            "@type": "PostalAddress",
+            addressRegion: "MG",
+            addressCountry: "BR",
+          },
+          areaServed: "Brasil",
+          sameAs: [INSTAGRAM_URL],
+        }),
+      },
       {
         type: "application/ld+json",
         children: JSON.stringify({
@@ -38,8 +73,9 @@ export const Route = createFileRoute("/")({
           "@type": "LocalBusiness",
           name: "Andreza Nara Semijoias",
           description: DESCRIPTION,
-          image: img.logo,
-          logo: img.logo,
+          url: SITE_URL,
+          image: LOGO_URL,
+          logo: LOGO_URL,
           telephone: "+5531968288245",
           priceRange: "$$",
           address: {
