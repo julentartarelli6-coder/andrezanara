@@ -1,4 +1,4 @@
-import logo from "@/assets/logomarca.jpg";
+import logo from "@/assets/logomarca.png";
 import hero from "@/assets/hero.jpg.asset.json";
 import owner from "@/assets/owner.jpg.asset.json";
 import ring from "@/assets/ring-solitaire.jpg.asset.json";
