@@ -11,7 +11,7 @@ import { InstagramFeed } from "@/components/site/InstagramFeed";
 import { FinalCta } from "@/components/site/FinalCta";
 import { Footer } from "@/components/site/Footer";
 import { WhatsAppFloat } from "@/components/site/WhatsAppFloat";
-import { img, INSTAGRAM_URL } from "@/lib/brand";
+import { INSTAGRAM_URL } from "@/lib/brand";
 
 const TITLE = "Andreza Nara Semijoias";
 const DESCRIPTION =
