@@ -11,6 +11,7 @@ const items = [
 export function Benefits() {
   return (
     <section aria-label="Benefícios" className="relative z-10 px-5 py-16 lg:px-10">
+      <h2 className="sr-only">Benefícios da Andreza Nara Semijoias</h2>
       <ul className="mx-auto grid max-w-7xl gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {items.map(({ Icon, title, text }, i) => (
           <Reveal as="li" key={title} delay={i * 90}>
