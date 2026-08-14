@@ -55,7 +55,7 @@ export const Route = createFileRoute("/")({
           logo: LOGO_URL,
           image: LOGO_URL,
           description: DESCRIPTION,
-          telephone: "+5531968288245",
+          telephone: "+553196828245",
           priceRange: "$$",
           address: {
             "@type": "PostalAddress",
@@ -76,7 +76,7 @@ export const Route = createFileRoute("/")({
           url: SITE_URL,
           image: LOGO_URL,
           logo: LOGO_URL,
-          telephone: "+5531968288245",
+          telephone: "+553196828245",
           priceRange: "$$",
           address: {
             "@type": "PostalAddress",
