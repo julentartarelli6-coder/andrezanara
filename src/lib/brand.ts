@@ -40,17 +40,8 @@ import garganta from "@/assets/garganta.jpg";
 
 export const img = {
   logo,
-  hero: hero.url,
-  owner: owner.url,
-  ring: ring.url,
   solitarias,
-  pearl: pearl.url,
-  heart: heart.url,
   colares,
-  goldHeart: goldHeart.url,
-  bracelets: bracelets.url,
-  watches: watches.url,
-  crystal: crystal.url,
   extra01,
   extra02,
   extra03,

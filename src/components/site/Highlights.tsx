@@ -35,7 +35,6 @@ const products = [
     name: "Relógios Cravejados",
     desc: "Brilho total no pulso, para noites e ocasiões marcantes.",
     price: "Sob consulta",
-    image: img.watches,
     alt: "Três relógios femininos cravejados de cristais na palma da mão",
   },
   {
