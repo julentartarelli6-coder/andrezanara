@@ -17,8 +17,7 @@ const TITLE = "Andreza Nara Semijoias";
 const DESCRIPTION =
   "Semijoias premium selecionadas para mulheres que valorizam sofisticação. Atendimento personalizado no WhatsApp e envio para todo o Brasil.";
 const SITE_URL = "https://www.andrezanarasemijoias.com.br/";
-const LOGO_URL =
-  "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/e47bb628-269f-4275-b66e-ee7b60a5a9c5";
+const LOGO_URL = "https://www.andrezanarasemijoias.com.br/favicon-512.png";
 
 export const Route = createFileRoute("/")({
   component: Index,
